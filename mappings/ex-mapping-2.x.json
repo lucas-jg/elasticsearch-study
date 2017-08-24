@@ -13,7 +13,7 @@
 					"type": "string",
 					"index": "analyzed"
 				},
-         		"keyword_field": {
+				"keyword_field": {
 					"type": "string",
 					"index": "not_analyzed"
 				},
@@ -22,34 +22,34 @@
 					"index": "not_analyzed",
 					"ignore_malformed": true
 				},
-                "ip_field" : {
-                    "type" : "ip",
-                    "index" : "not_analyzed"
-                },
-                "integer_field_index_false": {
+				"ip_field": {
+					"type": "ip",
+					"index": "not_analyzed"
+				},
+				"integer_field_index_false": {
 					"type": "integer",
 					"index": false,
 					"ignore_malformed": true
 				},
-                "keyword_field_index_false": {
+				"keyword_field_index_false": {
 					"type": "string",
 					"index": false
 				},
 				"object_field": {
 					"properties": {
-                        "text-field": {
-                            "type": "string",
-                            "index": "analyzed"
-                        },
-                        "keyword_field": {
-                            "type": "string",
-                            "index": "not_analyzed"
-                        },
-                        "integer_field": {
-                            "type": "integer",
-                            "index": "not_analyzed",
-                            "ignore_malformed": true
-                        }
+						"text-field": {
+							"type": "string",
+							"index": "analyzed"
+						},
+						"keyword_field": {
+							"type": "string",
+							"index": "not_analyzed"
+						},
+						"integer_field": {
+							"type": "integer",
+							"index": "not_analyzed",
+							"ignore_malformed": true
+						}
 					}
 				}
 			}

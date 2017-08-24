@@ -120,7 +120,7 @@ Elasticsearch 5.x 버전
 					"type": "text",
 					"index": true
 				},
-         		"keyword_field": {
+				"keyword_field": {
 					"type": "keyword",
 					"index": true
 				},
@@ -129,34 +129,34 @@ Elasticsearch 5.x 버전
 					"index": true,
 					"ignore_malformed": true
 				},
-                "ip_field" : {
-                    "type" : "ip",
-                    "index" : true
-                },
-                "integer_field_index_false": {
+				"ip_field": {
+					"type": "ip",
+					"index": true
+				},
+				"integer_field_index_false": {
 					"type": "integer",
 					"index": false,
 					"ignore_malformed": true
 				},
-                "keyword_field_index_false": {
+				"keyword_field_index_false": {
 					"type": "keyword",
 					"index": false
 				},
 				"object_field": {
 					"properties": {
-                        "text-field": {
-                            "type": "text",
-                            "index": true
-                        },
-                        "keyword_field": {
-                            "type": "keyword",
-                            "index": true
-                        },
-                        "integer_field": {
-                            "type": "integer",
-                            "index": true,
-                            "ignore_malformed": true
-                        }
+						"text-field": {
+							"type": "text",
+							"index": true
+						},
+						"keyword_field": {
+							"type": "keyword",
+							"index": true
+						},
+						"integer_field": {
+							"type": "integer",
+							"index": true,
+							"ignore_malformed": true
+						}
 					}
 				}
 			}
@@ -182,7 +182,7 @@ Elasticsearch 2.x 버전
 					"type": "string",
 					"index": "analyzed"
 				},
-         		"keyword_field": {
+				"keyword_field": {
 					"type": "string",
 					"index": "not_analyzed"
 				},
@@ -191,34 +191,34 @@ Elasticsearch 2.x 버전
 					"index": "not_analyzed",
 					"ignore_malformed": true
 				},
-                "ip_field" : {
-                    "type" : "ip",
-                    "index" : "not_analyzed"
-                },
-                "integer_field_index_false": {
+				"ip_field": {
+					"type": "ip",
+					"index": "not_analyzed"
+				},
+				"integer_field_index_false": {
 					"type": "integer",
 					"index": false,
 					"ignore_malformed": true
 				},
-                "keyword_field_index_false": {
+				"keyword_field_index_false": {
 					"type": "string",
 					"index": false
 				},
 				"object_field": {
 					"properties": {
-                        "text-field": {
-                            "type": "string",
-                            "index": "analyzed"
-                        },
-                        "keyword_field": {
-                            "type": "string",
-                            "index": "not_analyzed"
-                        },
-                        "integer_field": {
-                            "type": "integer",
-                            "index": "not_analyzed",
-                            "ignore_malformed": true
-                        }
+						"text-field": {
+							"type": "string",
+							"index": "analyzed"
+						},
+						"keyword_field": {
+							"type": "string",
+							"index": "not_analyzed"
+						},
+						"integer_field": {
+							"type": "integer",
+							"index": "not_analyzed",
+							"ignore_malformed": true
+						}
 					}
 				}
 			}

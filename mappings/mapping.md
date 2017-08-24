@@ -102,6 +102,8 @@ keyword를 사용한다면 저장되는 terms는 elasticsearch가 됩니다.
 ### 새로운 Index 생성 및 Mapping 설정
 
 Elasticsearch 5.x 버전
+
+PUT https://elasticsearch-host:9200/my_index
 ```
 {
 	"settings": {
@@ -164,6 +166,8 @@ Elasticsearch 5.x 버전
 ```
 
 Elasticsearch 2.x 버전
+
+PUT https://elasticsearch-host:9200/my_index
 ```
 {
 	"settings": {

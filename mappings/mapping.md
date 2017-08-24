@@ -231,7 +231,7 @@ PUT https://elasticsearch-host:9200/my_index
 
 P.S - refresh_interval 설정은 색인하는 주기를 설정하는 값입니다. 검색 관련 성능 향상을 위해 변경이 가능하며 대부분의 길에 성능을 위해 설정하는 경우 30s으로 설정하는 경우를 많이 보았습니다. 각자 운영하는 elasticsearch 상황에 따라서 설정하면 될 것 같습니다. 위 내용은 다음에 기회가 되는 경우 자세하게 포스팅하겠습니다.
 
-짧게 상대적으로 많이 사용될 것으로 예상되는 기초적인 내용 위주로 정리하였습니다. 더 많은 정보를 원하는 경우 ElasticSearch 공식 Document를 확인해주세요.
+짧게 상대적으로 많이 사용될 것으로 예상되는 기초적인 내용 위주로 정리하였습니다. 더 많은 정보를 원하는 경우 Elasticsearch 공식 Document를 확인해주세요.
 
 [https://www.elastic.co/guide/en/elasticsearch/reference/5.5/mapping.html](https://www.elastic.co/guide/en/elasticsearch/reference/5.5/mapping.html)
 

@@ -45,9 +45,7 @@ text와 keyword은 둘다 string을 위한 field datatype 입니다. 그렇다�
 
 text는 full-text index(전문 검색/색인)를 위한 타입이며, keyword는 일반 index(단순 검색)을 위한 타입니다.
 
-"elasticsearch"를 색인한다고 가정하겠습니다.
-
-text를 사용한다면 저장되는 terms는 elastic, elasticsearch, search 입니다. 
+"elasticsearch"를 색인한다고 가정하겠습니다. text를 사용한다면 저장되는 terms는 elastic, elasticsearch, search 입니다. 
 keyword를 사용한다면 저장되는 terms는 elasticsearch가 됩니다.
 
 간단하게 설정하는 방법을 확인 해보겠습니다.
@@ -69,7 +67,7 @@ keyword를 사용한다면 저장되는 terms는 elasticsearch가 됩니다.
 ```
 
 여기서  "index": true 의 경우 default이기 때문에 생략이 가능합니다.
-"index" : flase로 설정하는 경우 검색조차 되지 않기 때문에 필요에 따라 설정이 필요합니다.
+"index" : flase로 설정하는 경우 검색조차 되지 않기 때문에 필요에 따라 설정합니다.
 
 이번에는 2.x 버전에서 사용했던 방법으로 알아보겠습니다. 먼저 위에서 사용한 설정 방법과 동일한 내용입니다.
 

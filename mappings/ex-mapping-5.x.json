@@ -1,0 +1,60 @@
+{
+	"settings": {
+		"index": {
+			"number_of_shards": 10,
+			"number_of_replicas": 1,
+			"refresh_interval": "10s"
+		}
+	},
+	"mappings": {
+		"my_type": {
+			"properties": {
+				"text_field": {
+					"type": "text",
+					"index": true
+				},
+         		"keyword_field": {
+					"type": "keyword",
+					"index": true
+				},
+				"integer_field": {
+					"type": "integer",
+					"index": true,
+					"ignore_malformed": true
+				},
+                "ip_field" : {
+                    "type" : "ip",
+                    "index" : true
+                },
+                "integer_field_index_false": {
+					"type": "integer",
+					"index": false,
+					"ignore_malformed": true
+				},
+                "keyword_field_index_false": {
+					"type": "keyword",
+					"index": false
+				},
+				"object_field": {
+					"properties": {
+                        "text-field": {
+                            "type": "text",
+                            "index": true
+                        },
+                        "keyword_field": {
+                            "type": "keyword",
+                            "index": true
+                        },
+                        "integer_field": {
+                            "type": "integer",
+                            "index": true,
+                            "ignore_malformed": true
+                        }
+					}
+				}
+			}
+		}
+	}
+}
+
+
